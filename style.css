@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hachi+Maru+Pop&family=Lobster&family=Lora:ital@1&family=Poppins:wght@300;400&display=swap');
+        body{
+        background-color: #26324b;
+
+        }
+        .navcontainer{
+            background-color: #26324b;
+            display: flex;
+            align-items: center;
+        }
+        .nav{
+            height:150px;
+        }
+        .logo{
+            padding-left:10px;
+            border-radius:50px;
+             padding-right:30px;
+        }
+        .name{
+            font-size:30px; 
+            color: #1fc1dd;
+            font-family:"poppins";
+        } 
+        .tagline{
+            color: #1fc1dd;
+            font-family:"poppins";
+            font: size 20px;
+            padding-right:20px;
+        }
+        .container{
+            display: flex;
+        }
+        #cityName{
+            width: 550px;
+             height:60px;
+             border-top-left-radius:10px;
+             border-bottom-left-radius:10px;
+             font-size:20px;
+             font-family:"poppins";
+             margin-left:230px;
+        }
+
+        #cityName:hover{
+            border-color:#1fc1dd;    
+        }
+        
+            .search{
+               margin-left:2px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               background-color:#1fc1dde7;
+               color:#26324b;
+               width:120px;
+               height:60px; 
+               border-top-right-radius:10px;
+               border-bottom-right-radius:10px;
+               font-size:20px;
+               font-family:sans-serif;
+            }
+            .search:hover{
+                background-color:white; 
+                color:#1fc1dd; 
+                cursor: pointer;
+                transition-duration:0.7s;
+            }
+            
+            .info{
+                font-size:20px;
+                color:white;
+                font-family:"poppins";
+            }
+            
+
+    hr{
+        color:#1fc1dd;
+        width: 670px;
+    }
+  .attribute{
+    color:#1fc1dd;
+    font-size:20px;
+    font-family:"poppins";
+
+  }
